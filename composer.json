@@ -1,0 +1,25 @@
+{
+    "name":              "tasmaniski/zf2-config-helper",
+    "version":           "1.0.0",
+    "description":       "Provide Controller plugin and View helper for reading a config.",
+    "type":              "library",
+    "keywords":          ["zf2", "config", "helper", "plugin"],
+    "homepage":          "https://github.com/tasmaniski",
+    "authors": [
+        {
+            "name":     "Aleksandar Varnicic",
+            "email":    "tasmaniski@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "ConfigHelper": "src/"
+        },
+        "classmap": [
+            "src/"
+        ]
+    }    
+}
