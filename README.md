@@ -8,7 +8,7 @@ Add to you **composer.json** file:
 ```json
 {
     "require": {
-        "...",
+        
         "tasmaniski/zf2-config-helper":"dev-master"
     }
 }
