@@ -4,7 +4,7 @@
     "description":       "Provide Controller plugin and View helper for reading a config.",
     "type":              "library",
     "keywords":          ["zf2", "config", "helper", "plugin"],
-    "homepage":          "https://github.com/tasmaniski",
+    "homepage":          "https://github.com/tasmaniski/zf2-config-helper",
     "authors": [
         {
             "name":     "Aleksandar Varnicic",
