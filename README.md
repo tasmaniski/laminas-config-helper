@@ -1,5 +1,5 @@
 # ZF2 Config Helper
-Simple and small lib. for reading a config content in Controllers and Views files.
+Simple and small lib. for reading a config content in all Controllers and all Views files.
 
 ## Install
 
