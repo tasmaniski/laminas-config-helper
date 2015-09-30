@@ -28,7 +28,7 @@ Voila! The module is ready to use.
 
 ## Using in Controller or View
 You can use it in any of your controllers or view files (including layout.phtml). 
-First you have to add key in any of your config files (config/autoload/*) eg. **"key_from_config"**
+First you have to add key in any of your config files (config/autoload/\*) eg. **"key_from_config"**
 
 ```
 //read specific key registred in your config file.
