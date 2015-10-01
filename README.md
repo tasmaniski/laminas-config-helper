@@ -9,7 +9,7 @@ Add in you **composer.json** file:
 {
     "require": {
         
-        "tasmaniski/zf2-config-helper": "dev-master"
+        "tasmaniski/zf2-config-helper": "1.0.*"
     }
 }
 ```
