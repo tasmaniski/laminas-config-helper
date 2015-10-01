@@ -36,9 +36,10 @@ $keyFromConfig = $this->configHelp('key_from_config');
 
 // or in new version of PHP
 $keyFromConfig = $this->configHelp()->key_from_config;
+$keyFromConfig = $this->configHelp()['key_from_config']; // only for 5.4+
 
 // this will read whole config
-$config = $this->configHelp();
+$config = $this->configHelp(); // return config object ConZend\Config\fig
 echo $config->key_from_config;
 ```
 
