@@ -21,8 +21,4 @@
             </exclude>
         </whitelist>
     </filter>
-
-    <logging>
-        <log type="coverage-html" target="/tmp/coverage"/>
-    </logging>
 </phpunit>
