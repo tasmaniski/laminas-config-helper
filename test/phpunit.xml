@@ -1,31 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<phpunit bootstrap="./../vendor/autoload.php"
+<phpunit bootstrap="Bootstrap.php"
          haltOnError="true"
          haltOnFailure="true"
          colors="true"
-         forceCoversAnnotation="true"
-         checkForUnintentionallyCoveredCode="false"
-         beStrictAboutTestsThatDoNotTestAnything="true"
+         checkForUnintentionallyCoveredCode="true"
          beStrictAboutOutputDuringTests="true"
          beStrictAboutChangesToGlobalState="true">
+    
     <testsuites>
-        <testsuite name="zf2tutorial">
+        <testsuite name="ZF2 Config helper">
             <directory>./ConfigHelperTest</directory>
         </testsuite>
     </testsuites>
 
     <filter>
         <whitelist>
-            <directory suffix=".php">./../src</directory>
+            <directory suffix=".php">../src</directory>
             <exclude>
-                <directory>./../vendor</directory>
+                <directory>../vendor</directory>
             </exclude>
         </whitelist>
     </filter>
 
     <logging>
-        <log type="coverage-html" target="/tmp/coverage" lowUpperBound="35" highLowerBound="70"/>
-
+        <log type="coverage-html" target="/tmp/coverage"/>
     </logging>
 </phpunit>

@@ -6,7 +6,8 @@ use Zend\ServiceManager\FactoryInterface;
 use Zend\ServiceManager\ServiceLocatorInterface;
 use \ConfigHelper\Controller\Plugin\StarterConfig;
 
-class StarterConfigFactory implements FactoryInterface {
+class StarterConfigFactory implements FactoryInterface
+{
 
     /**
      * @param ServiceLocatorInterface $serviceLocator
