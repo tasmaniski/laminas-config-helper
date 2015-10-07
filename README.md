@@ -24,7 +24,7 @@ You need to register new module. Add in file **config/application.config.php**:
 ```
 
 ## Use
-You can use it in any of your controllers or view files (including layout.phtml). 
+You can use it **in any of your controllers or view** files (including layout.phtml). 
 First you have to add key in any of your config files (config/autoload/\*) eg. **"key_from_config"**
 
 ```
