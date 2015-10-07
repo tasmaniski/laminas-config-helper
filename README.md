@@ -13,7 +13,6 @@ Add in you **composer.json** file:
 }
 ```
 After running: *sudo composer update* 
-
 You need to register new module. Add in file **config/application.config.php**: 
 
 ```
