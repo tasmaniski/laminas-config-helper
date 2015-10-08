@@ -4,7 +4,7 @@ namespace ConfigHelperTest\View\Helper;
 
 use ConfigHelperTest\Integration\Util\Bootstrap;
 
-class StarterConfigTestTest extends \PHPUnit_Framework_TestCase
+class StarterConfigTest extends \PHPUnit_Framework_TestCase
 {
     public function testViewFactory()
     {
