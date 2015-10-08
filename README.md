@@ -8,7 +8,6 @@ Add in you **composer.json** file:
 ```json
 {
     "require": {
-        
         "tasmaniski/zf2-config-helper": "1.0.*"
     }
 }
@@ -24,10 +23,8 @@ You need to register new module. Add in file **config/application.config.php**:
 ),
 ```
 
-Voila! The module is ready to use. 
-
-## Using in Controller or View
-You can use it in any of your controllers or view files (including layout.phtml). 
+## Use
+You can use it **in any of your controllers or view** files (including layout.phtml). 
 First you have to add key in any of your config files (config/autoload/\*) eg. **"key_from_config"**
 
 ```
