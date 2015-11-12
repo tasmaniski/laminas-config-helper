@@ -39,7 +39,7 @@ $keyFromConfig = $this->configHelp()->key_from_config;
 $keyFromConfig = $this->configHelp()['key_from_config']; // only for 5.4+
 
 // this will read whole config
-$config = $this->configHelp(); // return config object ConZend\Config\fig
+$config = $this->configHelp(); // return config object Zend\Config\Config
 echo $config->key_from_config;
 ```
 
