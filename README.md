@@ -15,15 +15,14 @@ Add in your **composer.json** file:
 After running: *sudo composer update* 
 You need to register new module. Add in file **config/application.config.php**: 
 
-*Note: if you want to use it in ZF2 add version ^1.0*
-
-
 ```
 'modules' => array(
     '...',
     'ConfigHelper'
 ),
 ```
+*Note: if you want to use it in ZF2 add version ^1.0*
+
 
 ## Use
 You can use it **in any of your controllers or view** files (including layout.phtml). 
