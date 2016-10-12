@@ -3,7 +3,7 @@ Simple and small lib. for reading a config content in all Controllers and all Vi
 
 ## New version is here! You can use it in ZF3 
 
-Add in you **composer.json** file: 
+Add in your **composer.json** file: 
 
 ```json
 {
@@ -13,9 +13,10 @@ Add in you **composer.json** file:
 }
 ```
 After running: *sudo composer update* 
-*(if you want to use it in ZF2 add version 1.0.*)*
-
 You need to register new module. Add in file **config/application.config.php**: 
+
+*Note: if you want to use it in ZF2 add version ^1.0*
+
 
 ```
 'modules' => array(
