@@ -5,8 +5,8 @@ namespace ConfigHelper\Controller\Plugin;
 use Zend\Mvc\Controller\Plugin\AbstractPlugin;
 use Zend\Config\Config;
 
-class StarterConfig extends AbstractPlugin {
-
+class StarterConfig extends AbstractPlugin
+{
     private $config;
 
     public function __construct(array $config)
@@ -16,10 +16,10 @@ class StarterConfig extends AbstractPlugin {
 
     public function __invoke($key = null)
     {
-        if ($key) {
+        if($key){
             return $this->config->$key;
         }
-        else {
+        else{
             return $this->config;
         }
     }

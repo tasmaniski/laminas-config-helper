@@ -1,14 +1,14 @@
 <?php
 
-return array(
-    'view_helpers' => array(
-        'factories' => array(
-            'configHelp' => 'ConfigHelper\Factory\View\Helper\StarterConfigFactory',
-        ),
-    ),
-    'controller_plugins' => array(
-        'factories' => array(
-            'configHelp' => 'ConfigHelper\Factory\Controller\Plugin\StarterConfigFactory',
-        ),
-    ),
-);
+return [
+    'view_helpers'       => [
+        'factories' => [
+            'configHelp' => ConfigHelper\Factory\View\Helper\StarterConfigFactory::class,
+        ],
+    ],
+    'controller_plugins' => [
+        'factories' => [
+            'configHelp' => ConfigHelper\Factory\Controller\Plugin\StarterConfigFactory::class,
+        ],
+    ],
+];

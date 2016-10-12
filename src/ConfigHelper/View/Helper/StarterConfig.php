@@ -5,8 +5,8 @@ namespace ConfigHelper\View\Helper;
 use Zend\View\Helper\AbstractHelper;
 use Zend\Config\Config as ZfConfig;
 
-class StarterConfig extends AbstractHelper {
-
+class StarterConfig extends AbstractHelper
+{
     private $config;
 
     public function __construct(array $config)
@@ -16,10 +16,10 @@ class StarterConfig extends AbstractHelper {
 
     public function __invoke($key = null)
     {
-        if ($key) {
+        if($key){
             return $this->config->$key;
         }
-        else {
+        else{
             return $this->config;
         }
     }
