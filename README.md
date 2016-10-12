@@ -8,7 +8,7 @@ Add in you **composer.json** file:
 ```json
 {
     "require": {
-        "tasmaniski/zf2-config-helper": "1.0.*"
+        "tasmaniski/zend-config-helper": "2.0.*"
     }
 }
 ```
