@@ -1,9 +1,9 @@
 {
-    "name":              "tasmaniski/zf2-config-helper",
+    "name":              "tasmaniski/zend-config-helper",
     "description":       "Provide Controller plugin and View helper for reading a config.",
     "type":              "library",
     "keywords":          ["zf2", "config", "helper", "plugin"],
-    "homepage":          "https://github.com/tasmaniski/zf2-config-helper",
+    "homepage":          "https://github.com/tasmaniski/zend-config-helper",
     "authors": [
         {
             "name":     "Aleksandar Varnicic",
