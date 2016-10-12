@@ -21,7 +21,7 @@ You need to register new module. Add in file **config/application.config.php**:
     'ConfigHelper'
 ),
 ```
-*Note: if you want to use it in ZF2 in your composer.json add version ^1.0*
+*Note: if you want to use it in ZF2 in composer.json add version ^1.0*
 
 
 ## Use
