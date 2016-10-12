@@ -1,18 +1,19 @@
-# ZF2 Config Helper
+# Zend Framework Config Helper
 Simple and small lib. for reading a config content in all Controllers and all Views files.
 
-## Install
+## New version is here! You can use it in ZF3 
 
-Add in you **composer.json** file:
+Add in you **composer.json** file: 
 
 ```json
 {
     "require": {
-        "tasmaniski/zend-config-helper": "2.0.*"
+        "tasmaniski/zend-config-helper": "^2.0"
     }
 }
 ```
 After running: *sudo composer update* 
+*(if you want to use it in ZF2 add version 1.0.*)*
 
 You need to register new module. Add in file **config/application.config.php**: 
 
