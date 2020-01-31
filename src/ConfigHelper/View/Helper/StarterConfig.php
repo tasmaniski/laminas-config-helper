@@ -2,8 +2,8 @@
 
 namespace ConfigHelper\View\Helper;
 
-use Zend\View\Helper\AbstractHelper;
-use Zend\Config\Config as ZfConfig;
+use Laminas\View\Helper\AbstractHelper;
+use Laminas\Config\Config as LaminasConfig;
 
 class StarterConfig extends AbstractHelper
 {
@@ -11,7 +11,7 @@ class StarterConfig extends AbstractHelper
 
     public function __construct(array $config)
     {
-        $this->config = new ZfConfig($config);
+        $this->config = new LaminasConfig($config);
     }
 
     public function __invoke($key = null)

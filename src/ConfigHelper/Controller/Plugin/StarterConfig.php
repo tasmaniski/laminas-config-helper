@@ -2,8 +2,8 @@
 
 namespace ConfigHelper\Controller\Plugin;
 
-use Zend\Mvc\Controller\Plugin\AbstractPlugin;
-use Zend\Config\Config;
+use Laminas\Mvc\Controller\Plugin\AbstractPlugin;
+use Laminas\Config\Config;
 
 class StarterConfig extends AbstractPlugin
 {

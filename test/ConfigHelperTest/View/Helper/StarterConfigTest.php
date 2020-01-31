@@ -19,7 +19,7 @@ class StarterConfigTest extends \PHPUnit_Framework_TestCase
     {
         $configHelper = new \ConfigHelper\View\Helper\StarterConfig([]);
 
-        $this->assertInstanceOf('Zend\Config\Config', $configHelper());
+        $this->assertInstanceOf('Laminas\Config\Config', $configHelper());
     }
 
     public function testGetKeyFromConfig()

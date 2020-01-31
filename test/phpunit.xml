@@ -8,7 +8,7 @@
          beStrictAboutChangesToGlobalState="true">
     
     <testsuites>
-        <testsuite name="ZF2 Config helper">
+        <testsuite name="Laminas Config helper">
             <directory>./ConfigHelperTest</directory>
         </testsuite>
     </testsuites>

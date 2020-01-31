@@ -1,14 +1,14 @@
-# Zend Framework Config Helper
+# Laminas Config Helper
 Simple and small lib. for reading a config content in all Controllers and all Views files.
 
-## New version is here! You can use it in ZF3 
+## Version for Laminas
 
 Add in your **composer.json** file: 
 
 ```json
 {
     "require": {
-        "tasmaniski/zend-config-helper": "^2.0"
+        "tasmaniski/laminas-config-helper": "^3.0"
     }
 }
 ```
@@ -21,7 +21,7 @@ You need to register new module. Add in file **config/application.config.php**:
     'ConfigHelper'
 ),
 ```
-*Note: if you want to use it in ZF2 in composer.json add version ^1.0*
+*Note: if you want to use old ZF2 or ZF3 version, see [tasmaniski/zend-config-helper](https://github.com/tasmaniski/zend-config-helper).
 
 
 ## Use
@@ -37,7 +37,7 @@ $keyFromConfig = $this->configHelp()->key_from_config;
 $keyFromConfig = $this->configHelp()['key_from_config']; // only for 5.4+
 
 // this will read whole config
-$config = $this->configHelp(); // return config object Zend\Config\Config
+$config = $this->configHelp(); // return config object Laminas\Config\Config
 echo $config->key_from_config;
 ```
 
