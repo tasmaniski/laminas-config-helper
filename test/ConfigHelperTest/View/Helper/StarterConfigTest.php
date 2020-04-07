@@ -10,7 +10,7 @@ class StarterConfigTest extends \PHPUnit_Framework_TestCase
     {
         $serviceManager      = Bootstrap::getServiceManager();
         $configHelperFactory = new \ConfigHelper\Factory\View\Helper\StarterConfigFactory();
-        $configHelper        = $configHelperFactory->createService($serviceManager->get('viewhelpermanager'));
+        $configHelper        = $configHelperFactory->__invoke($serviceManager, '', []);
 
         $this->assertInstanceOf('ConfigHelper\View\Helper\StarterConfig', $configHelper);
     }

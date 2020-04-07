@@ -1,4 +1,5 @@
 <?php
+
 namespace ConfigHelperTest\Integration\Util;
 
 use Zend\Mvc\Service\ServiceManagerConfig;
@@ -10,39 +11,35 @@ class Bootstrap
      * @var ServiceManager
      */
     private static $serviceManager;
-    /**
-     * @var mixed
-     */
-    private static $config;
 
     /**
-     * @param mixed $config
+     * @var array
      */
-    public static function setConfig($config)
-    {
-        static::$config = $config;
-    }
-
-    /**
-     * @return mixed
-     */
-    public static function getConfig()
-    {
-        return static::$config;
-    }
+    private static $SERVICE_MANAGER_CONFIG = [
+        'modules'                 => [
+            'ConfigHelper',
+        ],
+        'module_listener_options' => [],
+    ];
 
     /**
      * @return ServiceManager
      */
     public static function getServiceManager()
     {
-        if(null === static::$serviceManager) {
-            $serviceManager = new ServiceManager(new ServiceManagerConfig());
-            $serviceManager->setService('ApplicationConfig', static::$config);
-            $serviceManager->get('ModuleManager')->loadModules();
-            static::$serviceManager = $serviceManager;
+        if (null === static::$serviceManager) {
+            $smConfig = self::$SERVICE_MANAGER_CONFIG;
+
+            $sm = new ServiceManager();
+            $sm->setAllowOverride(true);
+            (new ServiceManagerConfig())->configureServiceManager($sm);
+            $sm->setService('ApplicationConfig', $smConfig);
+            $sm->get('ModuleManager')->loadModules();
+
+            static::$serviceManager = $sm;
         }
 
         return static::$serviceManager;
     }
+
 }
