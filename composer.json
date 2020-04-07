@@ -1,19 +1,25 @@
 {
-    "name":              "tasmaniski/zend-config-helper",
-    "description":       "Provide Controller plugin and View helper for reading a config.",
-    "type":              "library",
-    "keywords":          ["zend framework", "config", "helper", "plugin"],
-    "homepage":          "https://github.com/tasmaniski/zend-config-helper",
+    "name": "tasmaniski/laminas-config-helper",
+    "description": "Provide Controller plugin and View helper for reading a config.",
+    "type": "library",
+    "keywords": [
+        "zend framework",
+        "config",
+        "helper",
+        "plugin"
+    ],
+    "homepage": "https://github.com/tasmaniski/laminas-config-helper",
     "authors": [
         {
-            "name":     "Aleksandar Varnicic",
-            "email":    "tasmaniski@gmail.com"
+            "name": "Aleksandar Varnicic",
+            "email": "tasmaniski@gmail.com"
         }
     ],
     "require": {
         "php": ">=5.6",
-        "zendframework/zend-mvc": "3.0.*",
-        "zendframework/zend-config": "2.6.*"
+        "laminas/laminas-mvc": "3.0.*",
+        "laminas/laminas-config": "2.6.*",
+        "laminas/laminas-dependency-plugin": "^1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.0"
@@ -27,6 +33,8 @@
         ]
     },
     "autoload-dev": {
-        "psr-0": { "ConfigHelperTest": "test/" }
+        "psr-0": {
+            "ConfigHelperTest": "test/"
+        }
     }
 }

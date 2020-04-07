@@ -2,8 +2,8 @@
 
 namespace ConfigHelper\View\Helper;
 
-use Zend\View\Helper\AbstractHelper;
-use Zend\Config\Config as ZfConfig;
+use Laminas\View\Helper\AbstractHelper;
+use Laminas\Config\Config as ZfConfig;
 
 class StarterConfig extends AbstractHelper
 {
