@@ -2,8 +2,8 @@
 
 namespace ConfigHelperTest\Integration\Util;
 
-use Zend\Mvc\Service\ServiceManagerConfig;
-use Zend\ServiceManager\ServiceManager;
+use Laminas\Mvc\Service\ServiceManagerConfig;
+use Laminas\ServiceManager\ServiceManager;
 
 class Bootstrap
 {
