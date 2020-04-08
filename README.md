@@ -1,5 +1,13 @@
-# Laminas MVC (Framework) Config Helper
-Simple and small lib. for reading a config content in all Controllers and all Views files.
+```json
+IMPORtANT NOTE: 
+If you find this package useful, 
+please click on a star button and let me know, 
+so I will gladly continue with the updates.
+```
+
+# Laminas MVC - Config Helper
+
+Simple and small lib for reading a config array in all Controllers and all Views files.
 
 ## Instalation 
 
@@ -12,7 +20,7 @@ Add in your **composer.json** file:
     }
 }
 ```
-After running: *composer update* 
+After running: `composer update`
 You need to register new module. Add in file **config/application.config.php**: 
 
 ```
