@@ -1,5 +1,5 @@
 ```json
-IMPORtANT NOTE: 
+IMPORTANT NOTE: 
 If you find this package useful, 
 please click on a star button and let me know, 
 so I will gladly continue with the updates.
