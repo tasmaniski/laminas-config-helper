@@ -8,6 +8,7 @@
         "helper",
         "plugin"
     ],
+    "license": "MIT",
     "homepage": "https://github.com/tasmaniski/laminas-config-helper",
     "authors": [
         {
