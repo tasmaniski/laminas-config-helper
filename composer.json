@@ -18,8 +18,8 @@
     ],
     "require": {
         "php": ">=5.6",
-        "laminas/laminas-mvc": "3.0.*",
-        "laminas/laminas-config": "2.6.*",
+        "laminas/laminas-mvc": "^3.0",
+        "laminas/laminas-config": "^2.6 | ^3.0",
         "laminas/laminas-dependency-plugin": "^1.0"
     },
     "require-dev": {
