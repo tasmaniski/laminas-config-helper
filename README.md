@@ -1,7 +1,5 @@
 ![Licence](https://img.shields.io/github/license/tasmaniski/laminas-config-helper) 
 ![PHP version](https://img.shields.io/packagist/php-v/tasmaniski/laminas-config-helper)
-![StarsCount](https://img.shields.io/github/stars/tasmaniski/laminas-config-helper)
-![Downloads](https://img.shields.io/packagist/dt/tasmaniski/laminas-config-helper)
 
 ```json
 IMPORTANT NOTE: 
